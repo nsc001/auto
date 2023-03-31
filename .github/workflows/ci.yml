@@ -6,6 +6,9 @@ on:
       - main
   schedule:
     - cron: "30 0,17 * * *"
+    
+permissions:
+  contents: write
 
 jobs:
   autogreen:
